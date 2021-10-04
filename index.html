@@ -10,126 +10,96 @@
 </head>
 <body>
 
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1>The Weeknd</h1>
-        <button type="button">Get our Latest Albums</button>
-        <br>
-        <br>
-        <!--TODO: Fine a suitable background image-->
-        <button type="button">&#9656;</button>
+        <h1 class="band-name band-name-large">The Weeknd</h1>
+        <div class="container">
+            <button class="btn btn-header" type="button">Get our Latest Albums</button>
+        </div>
+        <button class="btn btn-header btn-play" type="button">&#9656;</button>
     </header>
 
-    <section>
-        <h2>TOURS</h2>
-        <div>
-            <div>
-             <strong> JUL 16 </strong>
-             &lt;&gt;
-             <span> DETROIT, MI </span>
-             &lt;&gt;
-             <span> DTE ENERGY MUSIC THEATRE </span>
-             &lt;&gt;
-             <button type="button">BUY TICKETS</button>
-             <hr>
-            </div>
-        </div>
+    <section class="content-section container">
+        <h2 class="section-header">TOURS</h2>
 
         <div>
-            <div>
-             <strong> JUL 19 </strong>
-             &lt;&gt;
-             <span> TORONTO, ON</span>
-             &lt;&gt;
-             <span> BUDWEISER STAGE</span>
-             &lt;&gt;
-             <button type="button">BUY TICKETS</button>
-             <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date"> JUL 16 </span>
+                <span class="tour-item tour-city"> DETROIT, MI </span>
+                <span class="tour-item tour-arena"> DTE ENERGY MUSIC THEATRE </span>
+                <button type="button " class="btn tour-item tour-btn 
+                btn-primary">BUY TICKETS</button>
+            </div>
+
+            <div class="tour-row">
+                <span class="tour-item tour-date"> JUL 19 </span>
+                <span class="tour-item tour-city"> TORONTO, ON</span>
+                 <span class="tour-item tour-arena"> BUDWEISER STAGE</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>       
+            </div>
+
+            <div class="tour-row">
+                <span class="tour-item tour-date"> JUL 22 </span>
+                <span class="tour-item tour-city"> BRISTOW, VA </span>
+                <span class="tour-item tour-arena"> JIGGY LU</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>         
+            </div>
+        
+            <div class="tour-row">
+                <span class="tour-item tour-date"> JUL 27 </span>
+                <span class="tour-item tour-city"> PASSAIC, NJ </span>
+                <span class="tour-item tour-arena"> MET STADIUM </span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>       
+            </div>
+       
+            <div class="tour-row">
+                <span class="tour-item tour-date"> AUG 2 </span>
+                <span class="tour-item tour-city"> QUEEN, NY </span>
+                <span class="tour-item tour-arena"> YANKEE STADIUM </span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
+            </div>
+        
+            <div class="tour-row">
+                <span class="tour-item tour-date"> AUG 7 </span>
+                <span class="tour-item tour-city"> PHILADELPHIA, PV </span>       
+                <span class="tour-item tour-arena"> YOU CAN TOUCH IT MUSIUMN</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary">BUY TICKETS</button>
             </div>
         </div>
-
-        <div>
-            <div>
-             <strong> JUL 22 </strong>
-             &lt;&gt;
-             <span> BRISTOW, VA </span>
-             &lt;&gt;
-             <span> JIGGY LU</span>
-             &lt;&gt;
-             <button type="button">BUY TICKETS</button>
-             <hr>
-            </div>
-        </div>
-
-        <div>
-            <div>
-             <strong> JUL 27 </strong>
-             &lt;&gt;
-             <span> PASSAIC, NJ </span>
-             &lt;&gt;
-             <span> MET STADIUM </span>
-             &lt;&gt;
-             <button type="button">BUY TICKETS</button>
-             <hr>
-            </div>
-        </div>
-
-        <div>
-            <div>
-             <strong> AUG 2 </strong>
-             &lt;&gt;
-             <span> QUEEN, NY </span>
-             &lt;&gt;
-             <span> YANKEE STADIUM </span>
-             &lt;&gt;
-             <button type="button">BUY TICKETS</button>
-             <hr>
-            </div>
-        </div>
-
-        <div>
-            <div>
-             <strong> AUG 7 </strong>
-             &lt;&gt;
-             <span> PHILADELPHIA, PV </span>
-             &lt;&gt;
-             <span> YOU CAN TOUCH IT MUSIUMN</span>
-             &lt;&gt;
-             <button type="button">BUY TICKETS</button>
-            </div>
-        </div>
-
     </section>
     
-    <footer>
-        <h3>The Weeknd</h3>
-        <ul>
-            <li>
-                <a href="https://www.youtube.com/watch?v=XXYlFuWEuKI" target="_blank">
-                    <img src="images/youtube.png" alt="youtube icon" width="40">
-                </a>
-            </li>
-            
-            <li>
-                <a href="https://www.instagram.com/theweeknd/" target="_blank" >
-                    <img src="images/instagram.png" alt="instagram icon" width="40">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ" target="_blank">
-                    <img src="images/spotify.png" alt="spotify icon" width="40">
-                </a>
-            </li>
-        </ul>
-    </footer>
+    
+    <footer class = "main-footer">
+        <div class = "container main-footer-container">
+           <h3 class="band-name">The Weeknd</h3>
+           <ul class = "nav footer-nav">
+               <li>
+                   <a href="https://www.youtube.com/watch?v=XXYlFuWEuKI" target="_blank">
+                       <img src="images/youtube.png" alt="youtube icon">
+                   </a>
+               </li>
+               
+               <li>
+                   <a href="https://www.instagram.com/theweeknd/" target="_blank">
+                       <img src="images/instagram.png" alt="instagram icon">
+                   </a>
+               </li>
+   
+               <li>
+                   <a href="https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ" target="_blank">
+                       <img src="images/spotify.png" alt="spotify icon">
+                   </a>
+               </li>
+           </ul>
+       </div>
+       </footer>
+   
 
     
 </body>
