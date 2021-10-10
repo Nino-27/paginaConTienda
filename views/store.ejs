@@ -7,7 +7,13 @@
     <title>The Weeknd | Store</title>
     <meta name = "description" content="This is the about page"></meta>
     <link rel="stylesheet" href="style.css">
-    <script src="store.js" async></script>
+    <script src="https://js.stripe.com/v3/" defer></script> 
+    <link href="https://stripe-samples.github.io//developer-office-hours/de">
+     <script src="https://checkout.stripe.com/checkout.js" defer></script> 
+    <script>
+        let stripePublicKey = '<%= stripePublicKey %>'
+    </script>
+    <script src="store.js" defer></script>
 </head>
 <body>
 
