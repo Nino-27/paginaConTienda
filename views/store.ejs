@@ -25,68 +25,34 @@
     <section class="container content-section">
         <h2 class="section-header">MUSIC</h2>
         <div class="shop-items">
-            <div class="shop-item">
-                <span class="shop-item-title">Album 1</span>
-                <img class="shop-item-image" src="images/weeknd_2.jpg" alt="album 1" width = "300"/>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">$12.99</span>
-                    <button class="btn btn-primary shop-item-button" type="button"> ADD TO CART</button>
+            <% items.music.forEach(function(item) { %>
+                <div class="shop-item" data-item-id="<%= item.id %>">
+                    <span class="shop-item-title"><%= item.name %></span>
+                    <img class="shop-item-image" src="images/<%= item.imgName %>" alt="album 1" width = "300"/>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><%= item.price / 100 %></span>
+                        <button class="btn btn-primary shop-item-button" type="button"> ADD TO CART</button>
+                    </div>
                 </div>
-            </div>
-
-            <div class="shop-item">
-                <span class="shop-item-title">Album 2</span>
-                <img class="shop-item-image"  src="images/weeknd_3.jpg" alt="album 2" width = "300"/>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">$15.99</span>
-                    <button class="btn btn-primary shop-item-button"  type="button"> ADD TO CART</button>
-                </div>
-            </div>
-
-            <div class="shop-item">
-                <span class="shop-item-title">Album 3</span>
-                <img class="shop-item-image" src="images/weeknd_4.jpg" alt="album 3" width = "300"/>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">$18.99</span>
-                    <button class="btn btn-primary shop-item-button" type="button"> ADD TO CART</button>
-                </div>
-            </div>
-
-            <div class="shop-item">
-                <span class="shop-item-title">Album 4</span>
-                <img class="shop-item-image" src="images/weeknd_1.jpg" alt="album 4" width = "300"/>
-                <div class="shop-item-details">
-                    <span class="shop-item-price">$21.99</span>
-                    <button class="btn btn-primary shop-item-button" type="button"> ADD TO CART</button>
-                </div>
-            </div>
-    </div>
+            <% }) %>
+        </div>
     </section>
 
     <section class="container content-section">
         <h2 class="section-header">MERCH</h2>
         <div class="shop-items">
-        <div class="shop-item">
-            <span class="shop-item-title">Merch 1</span>
-            <img class="shop-item-image" src="images/merch_5.jpg" alt="MERCH 1" width = "300"/>
-            <div class="shop-item-details">
-                <span class="shop-item-price">$9.99</span>
-                <button class="btn btn-primary shop-item-button" type="button"> ADD TO CART</button>
-            </div>
+            <% items.merch.forEach(function(item) { %>
+                <div class="shop-item" data-item-id="<%= item.id %>">
+                    <span class="shop-item-title"><%= item.name %></span>
+                    <img class="shop-item-image" src="images/<%= item.imgName %>" alt="album 1" width = "300"/>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"><%= item.price / 100 %></span>
+                        <button class="btn btn-primary shop-item-button" type="button"> ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
         </div>
-
-        <div class="shop-item">
-            <span class="shop-item-title">Merch 2</span>
-            <img class="shop-item-image"  src="images/merch_7.jpg" alt="Merch 2" width = "300" />
-            <div class="shop-item-details">
-                <span class="shop-item-price">$14.99</span>
-                <button class="btn btn-primary shop-item-button" type="button"> ADD TO CART</button>
-            </div>
-        </div>
-    </div>
     </section>
-
-
 
     <section class="container content-section">
         <h2 class="section-header">CART</h2>

@@ -1,0 +1,27 @@
+{
+  "name": "proyect-tienda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nino-27/paginaConTienda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nino-27/paginaConTienda/issues"
+  },
+  "homepage": "https://github.com/Nino-27/paginaConTienda#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "stripe": "^8.179.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

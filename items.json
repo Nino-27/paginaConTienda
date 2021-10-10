@@ -1,0 +1,48 @@
+{
+    "music": [
+        {
+            "id": 1,
+            "name": "Album 1",
+            "price": 12999,
+            "imgName": "weeknd_2.jpg"
+        },
+
+        {
+            "id": 2,
+            "name": "Album 2",
+            "price": 1599,
+            "imgName": "weeknd_3.jpg"
+        },
+
+        {
+            "id": 3,
+            "name": "Album 3",
+            "price": 1899,
+            "imgName": "weeknd_4.jpg"
+        },
+
+        {
+            "id": 4,
+            "name": "Album 4",
+            "price": 2199,
+            "imgName": "weeknd_1.jpg"
+        }
+    ],
+
+    "merch": [
+
+        {
+            "id": 5,
+            "name": "T-Shirt Test",
+            "price": 999,
+            "imgName": "merch_5.jpg"
+        },
+
+        {
+            "id": 6,
+            "name": "Merch 2",
+            "price": 1499,
+            "imgName": "merch_7.jpg"
+        }
+    ]
+}
